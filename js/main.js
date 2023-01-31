@@ -1,6 +1,18 @@
-$( document ).ready(function() {
+// $( document ).ready(function() {
+
+//     llamandoFetch()
+// });
+
+
+$('#btnCargar').on('click', function(){
     llamandoFetch()
-});
+})
+
+$('#btnLimpiar').on('click', function(){
+    $('#cuerpoTabla').empty()
+    $('#totalGanancias').html('Total de ganancias: ')
+})
+
 
 
 
